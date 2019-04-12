@@ -6,4 +6,4 @@ before_install:
   - docker build -t sopheak1970/docker-web -f Dockerfile.dev .
 
 script:
-	- docker run sopheak1970/docker-web npm run test -- --coverage
+  - docker run sopheak1970/docker-web npm run test -- --coverage
